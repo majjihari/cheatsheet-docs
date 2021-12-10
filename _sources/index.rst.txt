@@ -7,8 +7,6 @@ Welcome to cheatsheet-docs's documentation!
 ===========================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
 
    dotnet
 
