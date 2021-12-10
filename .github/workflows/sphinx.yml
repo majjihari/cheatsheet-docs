@@ -11,8 +11,7 @@ jobs:
     - uses: BSFishy/pip-action@v1
       with:
       packages: |
-        sphinx_rtd_theme
-    - name: pip packages    
+        sphinx_rtd_theme    
     - uses: actions/checkout@v2
     - name: Build HTML
       uses: ammaraskar/sphinx-action@0.4
