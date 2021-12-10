@@ -10,7 +10,7 @@ Welcome to cheatsheet-docs's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   dotnet
 
 Indices and tables
 ==================
