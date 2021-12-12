@@ -73,32 +73,37 @@
 <h1>dotnet<a class="headerlink" href="#dotnet" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="to-check-dotnet-version">
 <h2>To check dotnet version<a class="headerlink" href="#to-check-dotnet-version" title="Permalink to this headline">¶</a></h2>
-<p>dotnet –version</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>dotnet --version
+</pre></div>
+</div>
 </div>
 <div class="section" id="to-create-new-solution-solution1">
 <h2>To create new solution “solution1”<a class="headerlink" href="#to-create-new-solution-solution1" title="Permalink to this headline">¶</a></h2>
-<p>mkdir solution1
-| cd solution1
-| dotnet new sln</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mkdir solution1
+cd solution1
+dotnet new sln
+</pre></div>
+</div>
 </div>
 <div class="section" id="to-create-new-project-project1-under-solution1">
 <h2>To create new project “project1” under “solution1”<a class="headerlink" href="#to-create-new-project-project1-under-solution1" title="Permalink to this headline">¶</a></h2>
 <p>Assume you are in solution1 directory.</p>
-<p>mkdir project1
-| cd project1
-| dotnet new webapi –framework “net5.0”</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>mkdir project1
+cd project1
+dotnet new webapi --framework &quot;net5.0&quot;
+</pre></div>
+</div>
 </div>
 <div class="section" id="to-add-project1-to-solution1">
 <h2>To add project1 to solution1<a class="headerlink" href="#to-add-project1-to-solution1" title="Permalink to this headline">¶</a></h2>
 <p>assume you are in solution1project1</p>
-<div class="line-block">
-<div class="line">dotnet sln ..solution1.sln add project1.csproj</div>
-</div>
 </div>
 <div class="section" id="to-build-and-run-the-project">
 <h2>To build and run the project<a class="headerlink" href="#to-build-and-run-the-project" title="Permalink to this headline">¶</a></h2>
-<p>Open project1 folder from vscode
-| <a href="#id1"><span class="problematic" id="id2">*</span></a>This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.</p>
+<p>Open project1 folder from vscode</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>*This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.
+</pre></div>
+</div>
 </div>
 </div>
 
