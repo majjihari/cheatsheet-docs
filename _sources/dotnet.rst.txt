@@ -29,13 +29,12 @@ To add project1 to solution1
 ----------------------------
 assume you are in solution1\project1
 
-.. code-block:: none 
+.. code-block:: none
+
    dotnet sln ..\solution1.sln add project1.csproj
 
 To build and run the project
 ----------------------------
 Open project1 folder from vscode
 
-.. code-block:: none 
-
-   *This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.
+**This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.**
