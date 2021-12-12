@@ -35,6 +35,10 @@ assume you are in solution1\project1
 
 To build and run the project
 ----------------------------
-Open project1 folder from vscode
+Open project1 folder from vscode and press F5.
+
+Open browser and type in url https://localhost:5001
+
+Open browser and type in url https://localhost:5001/swagger
 
 **This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.**
