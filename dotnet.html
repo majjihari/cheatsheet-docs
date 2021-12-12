@@ -78,25 +78,27 @@
 <div class="section" id="to-create-new-solution-solution1">
 <h2>To create new solution “solution1”<a class="headerlink" href="#to-create-new-solution-solution1" title="Permalink to this headline">¶</a></h2>
 <p>mkdir solution1
-cd solution1
-dotnet new sln</p>
+| cd solution1
+| dotnet new sln</p>
 </div>
 <div class="section" id="to-create-new-project-project1-under-solution1">
 <h2>To create new project “project1” under “solution1”<a class="headerlink" href="#to-create-new-project-project1-under-solution1" title="Permalink to this headline">¶</a></h2>
 <p>Assume you are in solution1 directory.</p>
 <p>mkdir project1
-cd project1
-dotnet new webapi –framework “net5.0”</p>
+| cd project1
+| dotnet new webapi –framework “net5.0”</p>
 </div>
 <div class="section" id="to-add-project1-to-solution1">
 <h2>To add project1 to solution1<a class="headerlink" href="#to-add-project1-to-solution1" title="Permalink to this headline">¶</a></h2>
 <p>assume you are in solution1project1</p>
-<p>dotnet sln ..solution1.sln add project1.csproj</p>
+<div class="line-block">
+<div class="line">dotnet sln ..solution1.sln add project1.csproj</div>
+</div>
 </div>
 <div class="section" id="to-build-and-run-the-project">
 <h2>To build and run the project<a class="headerlink" href="#to-build-and-run-the-project" title="Permalink to this headline">¶</a></h2>
 <p>Open project1 folder from vscode
-<a href="#id1"><span class="problematic" id="id2">*</span></a>This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.</p>
+| <a href="#id1"><span class="problematic" id="id2">*</span></a>This will automatically install MSBuild tools and creates .vscode/launch.json and .vscode/tasks.json files.</p>
 </div>
 </div>
 
