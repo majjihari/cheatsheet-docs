@@ -9,6 +9,9 @@ Welcome to cheatsheet-docs's documentation!
 .. toctree::
 
    dotnet
+   docker   
+   kubernetes
+
 
 Indices and tables
 ==================
