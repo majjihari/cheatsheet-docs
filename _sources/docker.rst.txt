@@ -1,5 +1,5 @@
-dotnet
-======
+Build docker images for asp.net core web api
+============================================
 
 To check dotnet version
 -----------------------
